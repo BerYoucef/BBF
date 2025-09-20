@@ -1,0 +1,57 @@
+    
+    
+    <!-- Main Container -->
+    <div class="main-container">
+       <h3>Thanks for the comment</h3>
+       <br>
+        <p>Your comment has been submitted with success ✔.</p>
+       <br>
+        <button id="back" type="button" class="submit-btn">Back to Shop</button>
+    </div>
+
+
+
+
+    <script>       
+        // Back to Shop 
+        document.getElementById('back').addEventListener('click', function () {
+            fetch('/', {
+            method: 'GET',
+            headers: {'Cache-Control': 'no-store'}
+        })
+        .then(res => {
+            if(res.ok) {
+                window.location.href = '/';
+            }
+        })
+        .catch(err => console.log("Error: ", err))
+        })
+
+        // Add fade-out animation
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes fade-out {
+                0% { opacity: 1; transform: scale(1); }
+                100% { opacity: 0; transform: scale(0); }
+            }
+        `;
+        document.head.appendChild(style);
+
+        // Entrance animations
+        window.addEventListener('load', function() {
+            // Animate product sections
+            const productSections = document.querySelectorAll('.product-grid, .comments-grid, .add-comment-section');
+            productSections.forEach((section, index) => {
+                section.style.opacity = '0';
+                section.style.transform = 'translateY(30px)';
+                
+                setTimeout(() => {
+                    section.style.transition = 'all 0.6s ease-out';
+                    section.style.opacity = '1';
+                    section.style.transform = 'translateY(0)';
+                }, index * 150);
+            });
+        });
+    </script>
+</body>
+</html>
