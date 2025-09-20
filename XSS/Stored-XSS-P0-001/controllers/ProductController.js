@@ -1,6 +1,5 @@
 const path = require('path');
 const {readDB, writeDB} = require('../models/Product-Model')
-const {escapeHtml, escapeJsonValues} = require('../utils/html-escaping')
 
 function ShowProductPage(req, res) {
     const productID = parseInt(req.query.productid); /* get param from query  */
@@ -8,13 +7,12 @@ function ShowProductPage(req, res) {
     const product = products.find(p => p.id === productID);
     if(!product) return res.status(404).send('product not found');
     
-    const escapedProduct = escapeJsonValues(product);
 
     res.render('home', {
         title: 'Stored XSS Lab - Threat\'D\'en',
         pageCSS: '/css/lab2.css',
         layout: 'layout-lab2',
-        product: escapedProduct,
+        product: product,
     })
 }
 
@@ -52,5 +50,6 @@ function SubmitComment(req, res) {
     res.redirect('/thanks');
 
 }
+
 
 module.exports = {ShowProductPage, SubmitComment};
