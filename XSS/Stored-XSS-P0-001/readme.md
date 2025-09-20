@@ -199,7 +199,7 @@ module.exports = { escapeHtml, escapeJsonValues };
 
 ```javascript
 // In your route handler ('../routes/home.js') => ('../controllers/ProductController.js')
-const { escapeJsonValues } = require('./fixes/fix-output-encoding');
+const { escapeJsonValues } = require('../fixes/fix-output-encoding');
 
 function ShowProductPage(req, res) {
     const productID = parseInt(req.query.productid); /* get param from query  */
