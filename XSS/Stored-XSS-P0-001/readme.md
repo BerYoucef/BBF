@@ -84,6 +84,7 @@ This lab demonstrates **Stored XSS (Stored Cross-Site Scripting)** where the com
 ```bash
 # Clone the repository
 git clone https://github.com/beryoucef/BBF.git
+cd BBF
 cd XSS
 cd stored-xss-0-protection
 
