@@ -89,7 +89,7 @@ cd XSS
 cd stored-xss-0-protection
 
 # Install dependencies
-npm install
+node install
 npm install express
 npm install morgan
 npm install ejs
