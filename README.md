@@ -50,6 +50,7 @@ docker-compose up -d
 | Lab | Level | Technology | Description |
 |-----|-------|------------|-------------|
 | **Web-001** | Beginner | XSS | Basic Stored XSS |
+| **Web-002** | Beginner | XSS | Basic Reflected XSS |
 
 ## 🎯 How to Use the Labs
 
