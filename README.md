@@ -97,7 +97,7 @@ This project is licensed under [MIT License]().
 ## 🔄 Updates & Versions
 
 ### Current Version: v1.0.1
-- ✅ Added 5 new labs
+- ✅ Added 2 new labs
 - ✅ Improved user interface
 
 ---
