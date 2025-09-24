@@ -3,7 +3,7 @@
 
 ![BBF Labs Banner](https://img.shields.io/badge/Security-Labs-red?style=for-the-badge&logo=shield&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
-![Labs Count](https://img.shields.io/badge/Labs-15+-green?style=for-the-badge)
+![Labs Count](https://img.shields.io/badge/Labs-2-green?style=for-the-badge)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Beginner%20to%20Advanced-orange?style=for-the-badge)
 ![Version](https://img.shields.io/badge/Version-v1.0.1-purple?style=for-the-badge&logo=tag&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
