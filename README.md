@@ -52,59 +52,8 @@ docker-compose up -d
 | **Web-001** | Beginner | XSS | Basic Stored XSS |
 | **Web-002** | Beginner | XSS | Basic Reflected XSS |
 
-## 🎯 How to Use the Labs
-
-Read the README file for each lab to understand the specific instructions, objectives, and learning outcomes.
-
-## 🤝 Contributing to the Project
-
-We welcome your contributions! You can:
-
-### Adding New Labs
-```bash
-# Create a new lab
-# Modify files as needed
-```
-
-### Improving Existing Labs
-- Improve the code
-- Add new challenges
-- Develop documentation
-
-### Report Issues
-Use [GitHub Issues](../../issues) to report:
-- Bugs in labs
-- Improvement suggestions
-- Requests for new labs
-
-## 📞 Support & Help
-
-### Contact Channels
-- 💬 **Discord Server**: [Soon]()
-- 📧 **Email**: bbfcybersec@gmail.com
-- 📱 **LinkedIn**: [@YouecefBerghiche](https://www.linkedin.com/in/youcef-berghiche-09aa012b9/)
-
-## 📜 License & Legal Usage
-
-This project is licensed under [MIT License]().
-
-### ⚖️ Disclaimer
-- Labs are for educational purposes only
-- Do not use techniques against systems you don't own
-- Developers are not responsible for misuse
-- Respect local and international laws
-
-## 🔄 Updates & Versions
-
-### Current Version: v1.0.1
-- ✅ Added 2 new labs
-- ✅ Improved user interface
-
----
 
 <div align="center">
-
-**🔒 Learn Cybersecurity Through Practical and Safe Methods**
 
 [⭐ Give a Star](../../stargazers) | [🍴 Fork the Project](../../fork) | [📝 Create Issue](../../issues/new)
 
